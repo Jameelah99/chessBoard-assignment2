@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+
+            for(let y = 1; y <= 200; y++)
+            {
+               
+               let shams = y % 6
+               let TIIDELAB = y % 8
+              // divisible by 6 and 8
+               if ((shams == 0) && (TIIDELAB == 0) ){
+                  console.log("shamsTIIDELAB");
+               }
+               // divisible by 6
+               else if (shams == 0){
+                   console.log("shams");
+               }
+               // divisible by 8
+               else if(TIIDELAB == 0){
+                  console.log ("TIIDELAB");
+               }
+               else{
+                   console.log(y)
+               };
+
+            }
+    </script>
+  </body>
+</html>
